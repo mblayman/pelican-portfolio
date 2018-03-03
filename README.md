@@ -1,4 +1,5 @@
 # pelican-portfolio
+
 A portfolio website using Pelican for the Python Frederick March 2018 talk
 
 ```bash
@@ -9,4 +10,6 @@ $ make
 $ make devserver
 $ make stopserver
 # Use Flex theme?
+# Netlify needs requirements.txt
+$ pipenv lock -r
 ```
