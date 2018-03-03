@@ -20,10 +20,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Python.org', 'http://python.org/'),
+    ('Jinja2', 'http://jinja.pocoo.org/'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -35,3 +36,23 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'Flex'
+
+SITETITLE = AUTHOR
+SITESUBTITLE = 'Python Frederick organizer'
+SITEDESCRIPTION = 'Demo site for Python Frederick March 2018'
+SITELOGO = 'https://avatars1.githubusercontent.com/u/636865?s=460&v=4'
+
+MAIN_MENU = True
+MENUITEMS = (
+    ('Categories', '/categories.html'),
+    ('Tags', '/tags.html'),
+)
+
+DISABLE_URL_HASH = True
+SOCIAL = (
+    ('twitter', 'https://twitter.com/mblayman'),
+    ('github', 'https://github.com/mblayman'),
+)
+
+COPYRIGHT_NAME = 'Matt Layman'
+COPYRIGHT_YEAR = 2018

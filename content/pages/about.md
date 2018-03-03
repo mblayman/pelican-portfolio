@@ -1,5 +1,3 @@
-Title: My Site
-
-# About this site.
+Title: About
 
 Here is some about content.
